@@ -4,11 +4,11 @@ const HEADSHOT = "/headshot.jpg";
 
 const GALLERY = [
   { src: "/gallery1.jpg", caption: "BOLDforce — Dreaming in Action 2024", context: "AI Lunch N Learn · Co-Founder & Executive Sponsor" },
-  { src: "/gallery2.jpg", caption: "BOLDforce — Dreaming in Action 2024", context: "Co-Founder & Executive Sponsor · Salesforce Toronto" },
-  { src: "/gallery3.jpg", caption: "Salesforce Connections — Theater 3", context: "Featured Speaker · ABM in Healthcare & Life Sciences" },
-  { src: "/gallery4.jpg", caption: "BLK Owned — Trailblazer Programme", context: "Board Secretary & Strategy Lead" },
-  { src: "/gallery5.jpg", caption: "BLK Owned — Community Event", context: "Board Secretary & Strategy Lead" },
-  { src: "/gallery6.jpg", caption: "Red Bulls Stadium — Customer Visit", context: "Strategic Enterprise · New York" },
+  { src: "/gallery6.jpg", caption: "BOLDforce — Dreaming in Action 2024", context: "Co-Founder & Executive Sponsor · Salesforce Toronto" },
+  { src: "/gallery2.jpg", caption: "Salesforce Connections — Theater 3", context: "Featured Speaker · ABM in Healthcare & Life Sciences" },
+  { src: "/gallery3.jpg", caption: "BLK Owned — Trailblazer Programme", context: "Board Secretary & Strategy Lead" },
+  { src: "/gallery4.jpg", caption: "BLK Owned — Community Event", context: "Board Secretary & Strategy Lead" },
+  { src: "/gallery5.jpg", caption: "Red Bulls Stadium — Customer Visit", context: "Strategic Enterprise · New York" },
   { src: "/gallery7.jpg", caption: "Dreamforce — Marketing Cloud", context: "Featured Speaker · San Francisco" },
   { src: "/gallery8.jpg", caption: "BOLDforce Canada — Team", context: "Co-Founder & Executive Sponsor · Salesforce" },
   { src: "/gallery9.jpg", caption: "OBSIDI by BPTN Awards", context: "Presenting · BMO Sponsored · Toronto" },
@@ -17,8 +17,8 @@ const GALLERY = [
 const STATS = [
   { value: "12", label: "Years at Salesforce" },
   { value: "139%", label: "Career Attainment Avg" },
-  { value: "50%+", label: "of Canada Reached" },
-  { value: "80x", label: "ROI — Home Depot" },
+  { value: "9×", label: "Quota Achievers Club" },
+  { value: "400+", label: "Walmart Locations Won" },
   { value: "500+", label: "ERG Members Built" },
 ];
 
@@ -27,103 +27,96 @@ const TABS = ["Overview", "Experience", "Case Studies", "Leadership", "Gallery"]
 const ROLES = [
   {
     title: "Director, Enterprise Sales",
-    company: "Salesforce Canada",
+    company: "Salesforce",
     period: "FY26 – FY27",
-    tag: "US Retail & Consumer Goods",
-    intro: "Built and led a 10-person enterprise AE team across six North American offices, owning Marketing Cloud, Commerce Cloud, and Data Cloud for enterprise and strategic accounts.",
+    tag: "Fortune 500 · Physical Operations & Distribution",
+    intro: "Built and led a 10-person enterprise AE team across six North American offices covering Fortune 500 accounts with large-scale physical operations, distribution networks, and field workforces — generating USD $10M annual run rate, 30% of total segment revenue.",
     bullets: [
-      "Key accounts: Walmart, MARS, L'Oréal, Nike, PepsiCo, Coca-Cola, Walgreens, Kroger — team closed 30%+ of total vertical revenue for the enterprise field organization.",
-      "Drove multi-threaded executive engagement across CMO, CTO, and CDO stakeholders; navigated complex procurement cycles with multi-year expansion strategies.",
-      "Recognised in Salesforce global onboarding materials as a model for enterprise digital sales leadership.",
+      "Key accounts: Walmart, PepsiCo, Coca-Cola, Walgreens, Kroger, L'Oréal, MARS — organisations with tens of thousands of field employees, complex supply chains, and distributed physical operations.",
+      "Drove C-suite engagement across CMO, CTO, and CDO stakeholders with multi-year expansion strategies; coached AEs on enterprise cycle navigation and competitive displacement.",
+      "Secured L1A executive transfer visa based on specialised enterprise leadership impact.",
     ],
   },
   {
     title: "Strategic Enterprise Account Executive",
     company: "Salesforce Canada",
     period: "FY23 – FY25",
-    tag: "Canada's Largest Retailers & Financial Institutions",
-    intro: "Covered Canada's most complex enterprise accounts on marketing technology, customer data platforms, and omnichannel experience. 144% quota attainment. Peak Performers Club FY23.",
+    tag: "Fleet · Retail Operations · Fuel Distribution · Energy",
+    intro: "Covered Canada's largest physical-economy enterprises — organisations with national fleet footprints, distributed field workforces, and complex operations. 144% quota attainment. Peak Performers Club FY23. CAD $10M TCV.",
     bullets: [
-      "Loblaw Companies: Architected Marketing Cloud strategy across 20+ lines of business — PC Optimum, PC Financial, Shoppers Drug Mart, Joe Fresh — reaching 50%+ of the Canadian population.",
-      "PC Financial / PC Bank: Embedded with regulated financial product teams on contact centre data strategy — direct credibility in matrixed financial services environments.",
-      "Walmart Canada: Led national digital communications deployment; championed WhatsApp expansion; formal member of Walmart Global team at Bentonville HQ. +90% push lift, +40% CTR.",
-      "Home Depot Canada: Won 12-month competitive RFP for Personalization + Intelligence platform. 80x ROI, 7-month payback, $115.9M projected annual impact.",
-      "Beer Store: Net-new full digital portfolio close in 7 weeks, displacing MailChimp and HubSpot.",
+      "Walmart Canada: Net-new after 24-month competitive displacement — enterprise-wide platform adoption across 400+ locations, national fleet and operations footprint. +90% push engagement, +40% CTR.",
+      "Home Depot Canada: Won 12-month competitive RFP across a field-service and retail operations environment. 80× ROI, 7-month payback, $115.9M projected annual impact.",
+      "Harnois Énergies: Net-new for a Quebec-based fuel distribution and energy company — 40% conversion rate, 66% captured in the first 30 days of deployment.",
+      "Beer Store: Full competitive displacement of incumbent stack in 7 weeks — end-to-end platform adoption including website, app, and enterprise data infrastructure across a province-wide distribution network.",
+      "Loblaw Companies: Multi-year C-suite advisory relationship across 25+ lines of business — organisations reaching 50%+ of the Canadian population across grocery, pharmacy, and fuel.",
     ],
   },
   {
-    title: "Commercial & Enterprise Account Executive",
-    company: "Salesforce Canada",
+    title: "Enterprise Account Executive",
+    company: "Salesforce",
     period: "FY20 – FY22",
-    tag: "Mid-Market to Enterprise",
-    intro: "Managed a diverse portfolio across Healthcare, Technology, and Retail & Consumer Goods in Canada. 107% attainment.",
+    tag: "Retail · Technology · Healthcare",
+    intro: "Managed Fortune 500 enterprise accounts across technology, healthcare, and retail & consumer goods. 107% quota attainment. Quota Achievers Club FY20–FY22.",
     bullets: [
-      "Harnois Énergies: Marketing Cloud deployment — 40% customer purchase rate, 66% of conversions in first 30 days.",
-      "Featured in Salesforce's global Digital AE onboarding materials and the Salesforce corporate book.",
+      "Roots Canada: AI-driven commerce deployment — 26.2% of total revenue via personalised recommendations, 7× ROI on abandoned recovery.",
+      "#1 Global Pardot AE (FY19). Quota Achievers Club consecutive.",
     ],
   },
   {
-    title: "SMB Account Executive",
-    company: "Salesforce Canada",
+    title: "SMB & Commercial Account Executive",
+    company: "Salesforce",
     period: "FY16 – FY19",
-    tag: "Healthcare & Life Sciences",
-    intro: "#1 Pardot Account Executive globally (FY19). Authored ABM go-to-market strategy for HLS — top-rated session at Dreamforce and Connections 2019.",
+    tag: "Healthcare & Life Sciences · Field Operations",
+    intro: "High-velocity SMB and commercial territory across US and Canada. 131% attainment (FY16–FY19). 2× Peak Performers Club.",
     bullets: [
-      "League (HLS): Full platform deployment displacing HubSpot — 10x new customer signings, 63% MAU, employer NPS 7x industry average. Published Salesforce case study.",
-      "HLS portfolio: Marketing Cloud and Pardot deployments displacing Marketo and Silverpop across Medical Guardian, PatientsLikeMe, and GetWellNetwork.",
+      "Sole field contributor on Salesforce's global Healthcare & Life Sciences ABM go-to-market strategy — featured speaker at Dreamforce, Connections, and World Tour.",
+      "Attained 167% quota as BDR; ranked #1 — promoted to Account Executive within 12 months.",
     ],
   },
 ];
 
 const CASES = [
   {
-    tag: "Retail Banking & Loyalty",
-    company: "Loblaw Companies — PC Optimum, PC Financial, Shoppers Drug Mart",
-    challenge: "Canada's largest grocery and pharmacy group needed a unified digital marketing platform spanning 20+ distinct lines of business — including PC Financial — reaching over 18 million loyalty members.",
-    approach: "Architected a Marketing Cloud strategy unifying data across PC Optimum, PC Financial, Shoppers Drug Mart, Joe Fresh, and No Frills. Built a phased deployment roadmap aligned to each LOB's compliance and channel requirements.",
-    outcome: "+33% AOV across programmes. Platform reaches 50%+ of the Canadian population. PC Financial data strategy established direct credibility in regulated financial services.",
-  },
-  {
-    tag: "Financial Services Data Strategy",
-    company: "PC Financial / PC Bank",
-    challenge: "PC Bank, a regulated financial product embedded within Loblaw, required a contact centre data platform meeting financial services compliance requirements while enabling personalised engagement at scale.",
-    approach: "Worked directly with PC Financial's product and IT teams to evaluate Data Cloud (CDP) for contact centre use cases, navigating both Loblaw enterprise technology governance and PC Bank's financial regulatory framework.",
-    outcome: "Established strategic presence in a regulated financial services environment — the most direct bridge from retail martech into a wealth management and banking context.",
-  },
-  {
-    tag: "Enterprise Omnichannel Deployment",
+    tag: "Fleet & Retail Operations — National Scale",
     company: "Walmart Canada",
-    challenge: "Walmart Canada sought to unify their digital communications programme across email, push, SMS, and emerging channels while supporting global standardisation and Canadian market requirements.",
-    approach: "Led a full Marketing Cloud deployment for national digital communications. Championed WhatsApp expansion for international audiences. Became a formal member of the Walmart Global team at Bentonville HQ.",
-    outcome: "+90% push notification engagement lift, +40% CTR, +11% AOV. First WhatsApp deployment in Canada.",
+    challenge: "Walmart Canada needed enterprise-wide platform adoption across their national operations footprint — 400+ locations, a large field workforce, and a supply chain spanning coast to coast. Incumbent vendor entrenched after a 24-month competitive cycle.",
+    approach: "Led a full competitive displacement over 24 months — building C-suite relationships across IT, operations, and marketing, navigating Walmart's global procurement governance with alignment at their Bentonville HQ.",
+    outcome: "Net-new enterprise close. Platform adopted across 400+ locations nationwide. +90% push engagement, +40% CTR, +11% AOV. First WhatsApp deployment in Canada.",
   },
   {
-    tag: "AI-Driven Personalization & ROI",
+    tag: "Fuel Distribution & Energy",
+    company: "Harnois Énergies",
+    challenge: "Harnois Énergies, a Quebec-based fuel distributor and energy company operating a large physical network of service stations and distribution assets, needed to modernise their customer communications and operations platform.",
+    approach: "Led a net-new enterprise close — navigating a French-language procurement environment, aligning IT, marketing, and operations stakeholders, and sequencing deployment to hit Q1 targets.",
+    outcome: "40% overall conversion rate. 66% of conversions captured within the first 30 days of deployment. Full platform live within 12 months.",
+  },
+  {
+    tag: "Retail Operations — RFP Displacement",
     company: "Home Depot Canada",
-    challenge: "Home Depot Canada required a personalization and intelligence platform competing with enterprise retail leaders. A 12-month competitive RFP evaluated three platforms across capability, integration complexity, and ROI.",
-    approach: "Led the full RFP response and executive engagement across digital, IT, and marketing stakeholders. Designed a phased Personalization + Intelligence deployment roadmap tied to measurable business outcomes.",
-    outcome: "80x ROI post-implementation. 7-month payback period. $115.9M projected annual impact.",
+    challenge: "Home Depot Canada required a platform capable of delivering measurable operations and customer experience ROI across a large-format retail and field-service environment. 12-month competitive RFP evaluated three platforms.",
+    approach: "Led the full RFP response and executive engagement across digital, IT, and operations stakeholders. Designed a phased deployment roadmap tied to measurable outcomes across their store and field-service network.",
+    outcome: "80× ROI post-implementation. 7-month payback period. $115.9M projected annual impact.",
   },
   {
-    tag: "Digital Transformation — DTC Commerce",
-    company: "Roots Canada",
-    challenge: "Roots needed to replatform their DTC e-commerce experience and build a personalised digital marketing capability to grow online revenue and retention.",
-    approach: "Led a multi-cloud deployment spanning Marketing Cloud, Commerce Cloud, and AI — aligning digital, IT, and brand leadership across a complex, multi-stakeholder organisation.",
-    outcome: "26.2% of total sales driven through personalized recommendations. 7x ROI. 6x SEO efficiency improvement.",
-  },
-  {
-    tag: "Healthcare & Life Sciences",
-    company: "League",
-    challenge: "League's employer and member marketing ran on HubSpot — a platform that couldn't scale with their enterprise growth or deliver member lifecycle intelligence.",
-    approach: "Led full-platform deployment of Marketing Cloud, Pardot, and Service Cloud — displacing HubSpot entirely. Mapped deployment to League's employer, member, and lifecycle marketing strategy.",
-    outcome: "10x increase in new customer signings. 63% MAU. 150% engagement lift. Employer NPS 7x the industry average. Published Salesforce case study.",
-  },
-  {
-    tag: "Net-New Logo — Speed to Value",
+    tag: "Distribution Network — Speed to Value",
     company: "Beer Store",
-    challenge: "The Beer Store needed to modernise their marketing stack — displacing MailChimp and HubSpot — and launch their new website, app, and personalised email programme on a compressed timeline.",
-    approach: "Structured a full digital portfolio close in 7 weeks, navigating a simple but fast procurement cycle and sequencing deployment to hit launch timelines.",
-    outcome: "Net-new logo in 7 weeks. Full digital portfolio deployed at launch — website, app, and personalised email programme.",
+    challenge: "The Beer Store, operating a province-wide distribution and retail network, needed to modernise their technology stack and launch new digital infrastructure on a compressed timeline — displacing MailChimp and HubSpot.",
+    approach: "Structured a full competitive displacement and platform close in 7 weeks. Sequenced end-to-end deployment across marketing, IT, and operations to hit their launch window.",
+    outcome: "7-week net-new close. Full platform deployed at launch — website, app, enterprise data infrastructure, and personalised communications across their distribution network.",
+  },
+  {
+    tag: "Large-Scale Physical Operations",
+    company: "Loblaw Companies",
+    challenge: "Loblaw, Canada's largest retailer with 25+ lines of business spanning grocery, pharmacy, fuel, and financial services, needed a platform capable of operating at national scale across a massive physical and field workforce.",
+    approach: "Built a multi-year C-suite advisory relationship across Loblaw's digital, IT, and operations leadership. Architected a phased expansion roadmap — starting with PC Optimum loyalty and growing across Shoppers, Joe Fresh, PC Financial, and their fuel network.",
+    outcome: "Platform reaches 50%+ of the Canadian population. +33% AOV across programmes. Multi-year strategic relationship spanning 25+ lines of business.",
+  },
+  {
+    tag: "Fortune 500 Physical Operations — US",
+    company: "Walmart, PepsiCo, Coca-Cola, Walgreens, Kroger",
+    challenge: "Leading a team covering the largest physical-economy enterprises in North America — organisations with tens of thousands of field employees, national distribution infrastructure, and complex multi-stakeholder procurement cycles.",
+    approach: "Built a 10-person enterprise AE team covering six US cities. Established structured pipeline cadences, coaching frameworks, and multi-year expansion playbooks for physical-economy accounts.",
+    outcome: "USD $10M annual run rate — 30% of total digital segment revenue. Team closed major platform expansions across the US Retail & Consumer Goods enterprise field organisation.",
   },
 ];
 
@@ -143,12 +136,12 @@ const LEADERSHIP = [
   {
     org: "Speaking & Recognition",
     role: "Dreamforce · Connections · World Tour",
-    desc: "B2B Marketing Main Stage Keynote at Dreamforce (featured customer: New England Biolabs). Solo speaker at Salesforce Connections 2019 — \"Salesforce for ABM in the HLS Industry.\" Multiple World Tour appearances. Accelerate Leadership Programme — Top 1% globally. L1A Executive Transfer Visa — United States.",
+    desc: "Featured speaker at Dreamforce, Salesforce Connections, and multiple World Tours. Accelerate Leadership Programme — Top 1% globally. 9× Quota Achievers Club. 3× Peak Performers Club (FY17, FY19, FY23). L1A Executive Transfer Visa — United States. University of Guelph, Bachelor of Commerce (Honours). Challenger Sale · Sandler Selling System (Silver) · JB Sales.",
     wide: true,
   },
 ];
 
-const CREDS = ["139% Career Attainment Avg (FY15–FY23)","9× Quota Achievers Club","3× Peak Performers Club","Accelerate Leadership Programme — Top 1% Globally","#1 Global Pardot AE","L1A Executive Transfer Visa — United States","Co-Founder BOLDforce Canada (500+ Members)","Board Secretary — BLK Owned"];
+const CREDS = ["139% Career Attainment Avg (FY15–FY23)","9× Quota Achievers Club","3× Peak Performers Club","Accelerate Leadership Programme — Top 1% Globally","L1A Executive Transfer Visa — United States","Co-Founder BOLDforce Canada (500+ Members)","Board Secretary — BLK Owned","Walmart Canada — 400+ Locations","Harnois Énergies — Fuel & Energy","Home Depot Canada — 80× ROI"];
 
 
 const css = `
@@ -231,7 +224,7 @@ const css = `
   }
 `;
 
-export default function ChrisRobertsRBC() {
+export default function ChrisRobertsMotive() {
   const [activeTab, setActiveTab] = useState("Overview");
   return (
     <div className="cr">
@@ -240,9 +233,9 @@ export default function ChrisRobertsRBC() {
         <div className="cr-hero">
           <img src={HEADSHOT} alt="Chris Roberts" className="cr-photo" />
           <div className="cr-identity">
-            <div className="cr-eyebrow">Director · Digital Channels &amp; AI</div>
+            <div className="cr-eyebrow">Regional Sales Director · Fleet &amp; Physical Operations</div>
             <h1 className="cr-name">Chris Roberts</h1>
-            <p className="cr-title">Twelve years building <strong>digital marketing platforms</strong> at Canada's largest enterprises — Loblaw, Walmart Canada, Home Depot, PC Financial. <strong>Now bringing that transformation expertise client-side.</strong></p>
+            <p className="cr-title">Twelve years selling into and leading teams at <strong>Canada's largest physical-economy enterprises</strong> — Walmart Canada, Home Depot, Harnois Énergies, Beer Store, Loblaw. <strong>Fleet, field operations, and distributed workforces are the through-line.</strong></p>
             <div className="cr-contact">
               <span>905-580-9430</span><span>·</span>
               <a href="mailto:chris.h.roberts@outlook.com">chris.h.roberts@outlook.com</a><span>·</span>
@@ -273,8 +266,8 @@ export default function ChrisRobertsRBC() {
           {activeTab==="Overview"&&(
             <section>
               <div className="cr-sl">Professional Profile</div>
-              <h2 className="cr-st">Platform depth.<br/>Programme leadership. Client-side.</h2>
-              <p className="cr-ss">Twelve years at Salesforce architecting digital marketing technology programmes for Canada's most complex organisations. Every engagement managed at the CMO, CDO, and CTO level, connected to measurable business outcomes. Now bringing that decade of martech depth and cross-functional leadership to the client side.</p>
+              <h2 className="cr-st">Physical economy.<br/>Fleet, field ops, enterprise scale.</h2>
+              <p className="cr-ss">Twelve years selling enterprise technology into Canada's largest physical-economy organisations — Walmart Canada (400+ locations), Home Depot, Harnois Énergies, Beer Store, Loblaw. Every deal navigated at the C-suite level across IT, operations, and field leadership. The accounts, the complexity, and the cycles map directly to what Motive sells into.</p>
               <div className="cr-div"/>
               <div className="cr-og">
                 <div className="cr-oc"><div className="cr-oct">MarTech &amp; CRM Platforms</div><div className="cr-ocb"><strong>Marketing Cloud</strong> (Email Studio, Journey Builder, Advertising Studio, Mobile Studio) · <strong>Pardot / Account Engagement</strong> · <strong>Data Cloud (CDP)</strong> · CRM Analytics</div></div>
@@ -292,7 +285,7 @@ export default function ChrisRobertsRBC() {
             <section>
               <div className="cr-sl">Professional Experience</div>
               <h2 className="cr-st">Twelve years.<br/>Canada's most complex accounts.</h2>
-              <p className="cr-ss">Every stage deepened the understanding of how enterprises evaluate, adopt, and extract value from digital marketing technology — and what it takes to lead those programmes from the inside.</p>
+              <p className="cr-ss">Every stage built expertise in the accounts, decision-makers, and procurement cycles that define enterprise physical-economy selling — from fuel distributors to national retailers to Fortune 500 distribution networks.</p>
               <div className="cr-div"/>
               {ROLES.map((r,i)=>(
                 <div className="cr-exp" key={i}>
@@ -315,7 +308,7 @@ export default function ChrisRobertsRBC() {
             <section>
               <div className="cr-sl">Customer Transformation Stories</div>
               <h2 className="cr-st">Technology decisions<br/>that changed businesses.</h2>
-              <p className="cr-ss">Seven enterprise transformations — each with a distinct challenge, a tailored approach, and outcomes that became benchmarks.</p>
+              <p className="cr-ss">Six enterprise wins in physical-economy accounts — fleet operators, fuel distributors, national retailers, and distribution networks. Each with a distinct procurement cycle and a measurable outcome.</p>
               <div className="cr-div"/>
               {CASES.map((c,i)=>(
                 <div className="cr-case" key={i}>
@@ -335,7 +328,7 @@ export default function ChrisRobertsRBC() {
             <section>
               <div className="cr-sl">Community &amp; Recognition</div>
               <h2 className="cr-st">Beyond the day job.</h2>
-              <p className="cr-ss">Leadership that extends outside the enterprise — into community, equity, and the next generation.</p>
+              <p className="cr-ss">Leadership that extends outside the enterprise — into community, equity, and the next generation of professionals in tech.</p>
               <div className="cr-div"/>
               <div className="cr-lead">
                 {LEADERSHIP.map((l,i)=>(
@@ -353,7 +346,7 @@ export default function ChrisRobertsRBC() {
             <section>
               <div className="cr-sl">In the Field</div>
               <h2 className="cr-st">Community. Leadership.<br/>Culture.</h2>
-              <p className="cr-ss">Moments from the work beyond the enterprise — BOLDforce, Blkowned, Dreamforce, and the community initiatives that run alongside the commercial career.</p>
+              <p className="cr-ss">Moments from the work beyond the quota — BOLDforce, Blkowned, Dreamforce, and the community initiatives that run alongside the commercial career.</p>
               <div className="cr-div"/>
               <div className="cr-gal">
                 {GALLERY.map((g,i)=>(
